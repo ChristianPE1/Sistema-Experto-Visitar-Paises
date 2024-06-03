@@ -1,0 +1,270 @@
+{
+   "Brasil": {
+      "clima": "tropical",
+      "idioma": "portugues",
+      "aspectos_turisticos": [
+         "playa",
+         "selva"
+      ],
+      "imagenes": [
+         "https://cdn.pixabay.com/photo/2017/01/08/19/30/rio-de-janeiro-1963744_1280.jpg",
+         "https://images.pexels.com/photos/22475982/pexels-photo-22475982/free-photo-of-islandia-paisaje-montana-fiordo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "descripcion": "Brasil es conocido por sus playas y la selva amazónica."
+   },
+   "Italia": {
+      "clima": "templado",
+      "idioma": "italiano",
+      "aspectos_turisticos": [
+         "montañas",
+         "playa"
+      ],
+      "imagenes": [
+         "italia1.jpg",
+         "italia2.jpg"
+      ],
+      "descripcion": "Italia es famosa por su rica historia y bellos paisajes."
+   },
+   "Suiza": {
+      "clima": "frio",
+      "idioma": "alemán",
+      "aspectos_turisticos": [
+         "montañas",
+         "nieve"
+      ],
+      "imagenes": [
+         "suiza1.jpg",
+         "suiza2.jpg"
+      ],
+      "descripcion": "Suiza es conocida por sus Alpes y sus estaciones de esquí."
+   },
+   "Canada": {
+      "clima": "frio",
+      "idioma": "ingles",
+      "aspectos_turisticos": [
+         "montañas",
+         "nieve",
+         "selva"
+      ],
+      "imagenes": [
+         "canada1.jpg",
+         "canada2.jpg"
+      ],
+      "descripcion": "Canadá es famosa por su vasto paisaje natural, incluyendo montañas y bosques."
+   },
+   "Sudafrica": {
+      "clima": "tropical",
+      "idioma": "ingles",
+      "aspectos_turisticos": [
+         "playa",
+         "selva"
+      ],
+      "imagenes": [
+         "sudafrica1.jpg",
+         "sudafrica2.jpg"
+      ],
+      "descripcion": "Sudáfrica es conocida por su biodiversidad y sus playas hermosas."
+   },
+   "Rusia": {
+      "clima": "frio",
+      "idioma": "ruso",
+      "aspectos_turisticos": [
+         "nieve",
+         "montañas"
+      ],
+      "imagenes": [
+         "rusia1.jpg",
+         "rusia2.jpg"
+      ],
+      "descripcion": "Rusia es el país más grande del mundo, famoso por su invierno frío y sus montañas."
+   },
+   "Australia": {
+      "clima": "templado",
+      "idioma": "ingles",
+      "aspectos_turisticos": [
+         "playa",
+         "desierto"
+      ],
+      "imagenes": [
+         "australia1.jpg",
+         "australia2.jpg"
+      ],
+      "descripcion": "Australia es conocida por sus playas, el Outback y la Gran Barrera de Coral."
+   },
+   "Japon": {
+      "clima": "templado",
+      "idioma": "japones",
+      "aspectos_turisticos": [
+         "montañas",
+         "playa",
+         "nieve"
+      ],
+      "imagenes": [
+         "japon1.jpg",
+         "japon2.jpg"
+      ],
+      "descripcion": "Japón es un país de contrastes, con tecnología avanzada y tradiciones antiguas."
+   },
+   "Argentina": {
+      "clima": "templado",
+      "idioma": "espanol",
+      "aspectos_turisticos": [
+         "montañas",
+         "playa",
+         "selva"
+      ],
+      "imagenes": [
+         "argentina1.jpg",
+         "argentina2.jpg"
+      ],
+      "descripcion": "Argentina es conocida por su carne, tango y su diversidad geográfica."
+   },
+   "Mexico": {
+      "clima": "tropical",
+      "idioma": "espanol",
+      "aspectos_turisticos": [
+         "playa",
+         "desierto",
+         "selva"
+      ],
+      "imagenes": [
+         "mexico1.jpg",
+         "mexico2.jpg"
+      ],
+      "descripcion": "México es famoso por su comida, cultura y playas impresionantes."
+   },
+   "Noruega": {
+      "clima": "frio",
+      "idioma": "noruego",
+      "aspectos_turisticos": [
+         "montañas",
+         "nieve"
+      ],
+      "imagenes": [
+         "noruega1.jpg",
+         "noruega2.jpg"
+      ],
+      "descripcion": "Noruega es conocida por sus fiordos espectaculares y su naturaleza intacta."
+   },
+   "Egipto": {
+      "clima": "tropical",
+      "idioma": "arabe",
+      "aspectos_turisticos": [
+         "desierto",
+         "playa"
+      ],
+      "imagenes": [
+         "egipto1.jpg",
+         "egipto2.jpg"
+      ],
+      "descripcion": "Egipto es famoso por sus antiguas pirámides y su rica historia."
+   },
+   "China": {
+      "clima": "templado",
+      "idioma": "mandarin",
+      "aspectos_turisticos": [
+         "montañas",
+         "desierto",
+         "playa"
+      ],
+      "imagenes": [
+         "china1.jpg",
+         "china2.jpg"
+      ],
+      "descripcion": "China es un país vasto con una rica historia y una variedad de paisajes."
+   },
+   "India": {
+      "clima": "tropical",
+      "idioma": "hindi",
+      "aspectos_turisticos": [
+         "selva",
+         "montañas",
+         "playa"
+      ],
+      "imagenes": [
+         "india1.jpg",
+         "india2.jpg"
+      ],
+      "descripcion": "India es conocida por su diversidad cultural y sus paisajes variados."
+   },
+   "España": {
+      "clima": "templado",
+      "idioma": "espanol",
+      "aspectos_turisticos": [
+         "playa",
+         "montañas",
+         "desierto"
+      ],
+      "imagenes": [
+         "espana1.jpg",
+         "espana2.jpg"
+      ],
+      "descripcion": "España es famosa por su cultura vibrante, gastronomía y paisajes diversos."
+   },
+   "Chile": {
+      "clima": "templado",
+      "idioma": "espanol",
+      "aspectos_turisticos": [
+         "montañas",
+         "desierto",
+         "playa"
+      ],
+      "imagenes": [
+         "chile1.jpg",
+         "chile2.jpg"
+      ],
+      "descripcion": "Chile es conocido por su larga costa, el desierto de Atacama y los Andes."
+   },
+   "Grecia": {
+      "clima": "templado",
+      "idioma": "griego",
+      "aspectos_turisticos": [
+         "playa",
+         "montañas"
+      ],
+      "imagenes": [
+         "grecia1.jpg",
+         "grecia2.jpg"
+      ],
+      "descripcion": "Grecia es famosa por sus islas paradisíacas, su historia antigua y su gastronomía."
+   },
+   "Nueva Zelanda": {
+      "clima": "templado",
+      "idioma": "ingles",
+      "aspectos_turisticos": [
+         "montañas",
+         "playa"
+      ],
+      "imagenes": [
+         "nueva_zelanda1.jpg",
+         "nueva_zelanda2.jpg"
+      ],
+      "descripcion": "Nueva Zelanda es conocida por sus paisajes impresionantes y su biodiversidad."
+   },
+   "Tailandia": {
+      "clima": "tropical",
+      "idioma": "tailandes",
+      "aspectos_turisticos": [
+         "playa",
+         "selva"
+      ],
+      "imagenes": [
+         "tailandia1.jpg",
+         "tailandia2.jpg"
+      ],
+      "descripcion": "Tailandia es famosa por sus playas exóticas, templos y comida callejera."
+   },
+   "Peru": {
+      "clima": "tropical",
+      "idioma": "espanol",
+      "aspectos_turisticos": [
+         "montañas",
+         "selva"
+      ],
+      "imagenes": [
+         "peru1.jpg",
+         "peru2.jpg"
+      ],
+      "descripcion": "Perú es conocido por Machu Picchu, su selva amazónica y su rica cultura."
+   }
+}

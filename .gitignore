@@ -1,0 +1,17 @@
+# Python files
+*.pyc
+__pycache__
+
+# Virtual environment
+env/
+
+# tailwind config
+tailwind.config.js
+.DS_Store
+
+#package-lock.json
+package-lock.json
+package.json
+
+#node_modules
+node_modules

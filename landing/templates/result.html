@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Resultados de Recomendación</title>
+</head>
+
+<body>
+   <h1>Países Recomendados</h1>
+   {% if recomendaciones %}
+   <ul>
+      {% for pais, detalles in recomendaciones.items() %}
+      <li>
+         <h2>{{ pais }}</h2>
+         <p>{{ detalles.descripcion }}</p>
+         <div>
+            {% for imagen in detalles.imagenes %}
+            <img src="{{imagen}}" alt="{{ pais }}" style="width:200px;">
+            {% endfor %}
+         </div>
+      </li>
+      {% endfor %}
+   </ul>
+   {% else %}
+   <p>No se encontraron países que cumplan con todas las características.</p>
+   {% endif %}
+   <a href="/">Volver</a>
+</body>
+
+</html>
