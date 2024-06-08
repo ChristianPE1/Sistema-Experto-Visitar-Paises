@@ -5,28 +5,70 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Resultados de Recomendación</title>
+   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-   <h1>Países Recomendados</h1>
-   {% if recomendaciones %}
-   <ul>
-      {% for pais, detalles in recomendaciones.items() %}
-      <li>
-         <h2>{{ pais }}</h2>
-         <p>{{ detalles.descripcion }}</p>
-         <div>
-            {% for imagen in detalles.imagenes %}
-            <img src="{{imagen}}" alt="{{ pais }}" style="width:200px;">
-            {% endfor %}
-         </div>
-      </li>
-      {% endfor %}
-   </ul>
-   {% else %}
-   <p>No se encontraron países que cumplan con todas las características.</p>
-   {% endif %}
-   <a href="/">Volver</a>
+   <article class="top-0 bg-gradient-to-tr from-gray-900 to-sky-900 h-screen w-full p-8 text-white">
+      <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-4xl">
+         Países Recomendados</h1>
+      {% if recomendaciones %}
+      <main class="grid grid-cols-4 grid-rows-4 gap-4 h-4/5 my-4">
+         <section class="bg-slate-500/20 col-span-2 row-span-4 rounded-2xl overflow-hidden">
+            <header class="p-4 h-1/2 text-white">
+               <h2 class="mb-3 text-3xl font-extrabold tracking-tight">
+                  {{recomendaciones[0][0]}}</h2>
+               <p class="mb-1">{{recomendaciones[0][1].descripcion}}</p>
+            </header>
+            <div class="h-1/2 p-0 flex flex-row">
+               {% for imagen in recomendaciones[0][1].imagenes %}
+               <img src="{{imagen}}" alt="{{recomendaciones[0][0]}}" class="w-1/2">
+               {% endfor %}
+            </div>
+         </section>
+         <section class="bg-slate-500/20 col-span-2 row-span-2 col-start-3 rounded-2xl overflow-hidden flex-row flex">
+            <aside class="p-4 w-1/2">
+               <h2 class="mb-3 text-3xl font-extrabold tracking-tight">
+                  {{recomendaciones[1][0]}}</h2>
+               <p class="mb-1">{{recomendaciones[1][1].descripcion}}</p>
+            </aside>
+            <div class="w-1/2 flex-col flex">
+               {% for imagen in recomendaciones[1][1].imagenes %}
+               <img src="{{imagen}}" alt="{{recomendaciones[1][0]}}" class="h-1/2">
+               {% endfor %}
+            </div>
+         </section>
+         <section class="bg-slate-500/20 row-span-2 col-start-3 row-start-3 rounded-2xl overflow-hidden">
+            <header class="p-4 h-1/2">
+               <h2 class="mb-3 text-xl font-extrabold tracking-tight">{{recomendaciones[2][0]}}</h2>
+               <p class="mb-1 text-sm">{{recomendaciones[2][1].descripcion}}</p>
+            </header>
+            <div class="h-1/2 flex-row flex">
+               {% for imagen in recomendaciones[2][1].imagenes %}
+               <img src="{{imagen}}" alt="{{recomendaciones[2][0]}}" class="w-1/2">
+               {% endfor %}
+            </div>
+         </section>
+         <section class="bg-slate-500/20 row-span-2 col-start-4 row-start-3 rounded-2xl overflow-hidden">
+            <header class="p-4 h-1/2">
+               <h2 class="mb-3 text-xl font-extrabold tracking-tight">{{recomendaciones[3][0]}}</h2>
+               <p class="mb-1 text-sm">{{recomendaciones[3][1].descripcion}}</p>
+            </header>
+            <div class="h-1/2 flex-row flex">
+               {% for imagen in recomendaciones[3][1].imagenes %}
+               <img src="{{imagen}}" alt="{{recomendaciones[3][0]}}" class="w-1/2">
+               {% endfor %}
+            </div>
+         </section>
+      </main>
+
+      {% else %}
+      <p>No se encontraron países que cumplan con todas las características.</p>
+      {% endif %}
+      <a href="/"
+         class="bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm dark:bg-blue-600 dark:hover:bg-blue-700 px-10 py-2">Volver</a>
+
+   </article>
 </body>
 
 </html>

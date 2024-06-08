@@ -1,0 +1,10 @@
+.wallpaper-index {
+   height: 100vh;
+   width: 100vw;
+   background-image: url('https://pre-webunwto.s3.eu-west-1.amazonaws.com/2022-03/tourism-enjoys-strong-start-to-2022-while-facing-new-uncertainties_0.jpg?VersionId=RRuyfA6irBmTr0OuJ2RDy_QdUY6hVms2');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+   filter: blur(10px);
+}

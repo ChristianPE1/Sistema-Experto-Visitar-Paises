@@ -24,7 +24,8 @@ def recomendar():
    sistema.run()
 
    recomendaciones = sistema.priorizar_recomendaciones()
-   detalles_recomendaciones = {pais: datos[pais] for pais in recomendaciones}
+   #detalles_recomendaciones = {pais: datos[pais] for pais in recomendaciones}
+   detalles_recomendaciones =  [(pais, datos[pais]) for pais in recomendaciones]
    #print(detalles_recomendaciones)
    return render_template('result.html', recomendaciones=detalles_recomendaciones)
 

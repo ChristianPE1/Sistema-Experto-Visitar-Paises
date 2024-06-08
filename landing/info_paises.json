@@ -20,8 +20,8 @@
          "playa"
       ],
       "imagenes": [
-         "italia1.jpg",
-         "italia2.jpg"
+         "https://images.pexels.com/photos/733830/pexels-photo-733830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+         "https://images.pexels.com/photos/20446158/pexels-photo-20446158/free-photo-of-pueblo-de-santa-maddalena-en-los-dolomitas-italianos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       ],
       "descripcion": "Italia es famosa por su rica historia y bellos paisajes."
    },
@@ -33,8 +33,8 @@
          "nieve"
       ],
       "imagenes": [
-         "suiza1.jpg",
-         "suiza2.jpg"
+         "https://images.pexels.com/photos/205001/pexels-photo-205001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+         "https://images.pexels.com/photos/922978/pexels-photo-922978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       ],
       "descripcion": "Suiza es conocida por sus Alpes y sus estaciones de esquí."
    },
@@ -47,8 +47,8 @@
          "selva"
       ],
       "imagenes": [
-         "canada1.jpg",
-         "canada2.jpg"
+         "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+         "https://maravilloso.exclusivetravelerclub.com/wp-content/uploads/2017/08/canada-moraine-lake.jpg"
       ],
       "descripcion": "Canadá es famosa por su vasto paisaje natural, incluyendo montañas y bosques."
    },
@@ -60,8 +60,8 @@
          "selva"
       ],
       "imagenes": [
-         "sudafrica1.jpg",
-         "sudafrica2.jpg"
+         "https://images.unsplash.com/photo-1484318571209-661cf29a69c3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFpc2FqZSUyMGRlJTIwc3VkJUMzJUExZnJpY2F8ZW58MHx8MHx8fDA%3D",
+         "https://vagamundos.travel/wp-content/uploads/2019/02/thumb_527_news_normal.jpeg"
       ],
       "descripcion": "Sudáfrica es conocida por su biodiversidad y sus playas hermosas."
    },
@@ -73,8 +73,8 @@
          "montañas"
       ],
       "imagenes": [
-         "rusia1.jpg",
-         "rusia2.jpg"
+         "https://i.pinimg.com/736x/0d/51/51/0d515157c8a846f9f11b250fcd47da58.jpg",
+         "https://cdn.pixabay.com/photo/2021/05/14/09/26/nature-6252900_1280.jpg"
       ],
       "descripcion": "Rusia es el país más grande del mundo, famoso por su invierno frío y sus montañas."
    },
@@ -141,8 +141,8 @@
          "nieve"
       ],
       "imagenes": [
-         "noruega1.jpg",
-         "noruega2.jpg"
+         "https://media.traveler.es/photos/6137776afd8ea62e2db32147/master/w_1600%2Cc_limit/103842.jpg",
+         "https://www.liligo.es/magazine-viajes/wp-content/uploads/sites/43/2021/04/trolltunga-trolls-tongue-rock-norway-picture-id177425034.jpg"
       ],
       "descripcion": "Noruega es conocida por sus fiordos espectaculares y su naturaleza intacta."
    },

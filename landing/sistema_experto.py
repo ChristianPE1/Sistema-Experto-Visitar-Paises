@@ -64,4 +64,4 @@ class SistemaRecomendaciones(KnowledgeEngine):
             paises_puntuacion[pais] = puntuacion
         
         recomendaciones_ordenadas = sorted(paises_puntuacion.items(), key=lambda x: x[1], reverse=True)
-        return [pais for pais, puntuacion in recomendaciones_ordenadas]
+        return [pais for pais, puntuacion in recomendaciones_ordenadas[:4]]

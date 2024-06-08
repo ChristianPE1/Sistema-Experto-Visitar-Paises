@@ -6,12 +6,20 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Recomendación de Países</title>
    <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="../static/css/index.css">
 </head>
 
 <body>
-   <main class="w-full flex flex-col justify-center items-center h-screen ">
-      <h1 class="text-3xl my-3">Sistema Experto de Recomendación de Países</h1>
-      <form action="/recomendar" method="POST" class="max-w-2xl bg-gray-400 p-5 rounded-xl">
+   <!--<div class="wallpaper-index">
+   </div>-->
+
+   <main
+      class="w-full flex flex-col justify-center items-center h-screen absolute top-0 bg-gradient-to-tr from-gray-900 to-sky-900">
+      <h1
+         class="my-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">
+         Sistema Experto de Recomendación de Países</h1>
+      <form action="/recomendar" method="POST"
+         class="max-w-2xl bg-gray-400/20 p-5 rounded-xl mt-4 shadow-md hover:shadow-slate-400 duration-300 ease-in-out">
          <div>
             <label for="clima" class="block mb-2 text-sm font-bold text-gray-900 dark:text-white">Clima
                deseado</label>
