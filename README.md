@@ -22,6 +22,8 @@ python landing/app.py
 ## Input sugerido
 
 Clida deseado: frio
+
 Idioma deseado: ingles
+
 Aspectos turisticos: nieve
 
